@@ -2,7 +2,7 @@ function Navbar() {
   return (
     //============================ HEADER ==============================
     <div className="w-full h-[58.76px] flex justify-between items-center mx-auto">
-      <div className="flex items-center px-14">
+      <div className="flex items-center px-20">
         <svg
           width="25"
           height="17"
@@ -39,7 +39,7 @@ function Navbar() {
           Nexcent
         </h2>
       </div>
-      <div className="w-[650.48px] h-[36.49px] flex justify-end items-center  mr-[100px]">
+      <div className="w-full h-[36.49px] flex justify-end items-center  mr-24">
         <div className="flex mr-6">
           <p className="font-medium text-D-grey text-[11.14px] mr-12">Home</p>
           <p className="font-medium text-D-grey text-[11.14px] mr-6">Features</p>
@@ -47,7 +47,7 @@ function Navbar() {
           <p className="font-medium text-D-grey text-[11.14px] mr-6">Blog</p>
           <p className="font-medium text-D-grey text-[11.14px] mr-3">Pricing</p>
         </div>
-        <button className="flex justify-center items-center text-[11.14px] font-medium bg-primary-green text-white w-[133.25px] h-[36.49px] rounded-[2.78px]">
+        <button className="flex justify-center items-center text-[11.14px] font-medium bg-primary-green text-white px-4 h-[36.49px] rounded-[2.78px]">
           Register Now
           <div className="px-3">
             <svg

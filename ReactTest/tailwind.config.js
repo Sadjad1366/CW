@@ -10,7 +10,7 @@ export default {
         "primary-green":"#4CAF4F",
         "D-grey":"#4D4D4D",
         "neutral-grey":"#717171",
-        "app-orange": "#FF5722",
+        "bgc-base": "#F5F7FA",
       }
     },
 
