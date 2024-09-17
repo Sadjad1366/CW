@@ -1,7 +1,7 @@
 export function How() {
   return (
     //============================ HOW ==============================
-    <div className="w-full flex">
+    <div className="w-full mx-auto flex">
       <img src="./assets/images/pana.png" alt="" />
       <div className="flex flex-col">
         <h2>How to design your site footer like we did</h2>
@@ -20,4 +20,3 @@ export function How() {
     </div>
   );
 }
-

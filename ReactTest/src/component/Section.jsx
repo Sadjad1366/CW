@@ -1,9 +1,9 @@
 export function Section() {
   return (
     //============================ SECTION ==============================
-    <div className="w-full flex flex-col items-center mx-auto border">
-      <p>Our Clients</p>
-      <p>We have been working with some Fortune 500+ clients</p>
+    <div className="w-full flex flex-col items-center mx-auto py-6">
+      <h2 className="text-[25.06px] font-semibold text-D-grey">Our Clients</h2>
+      <p className="text-neutral-grey text-[11.14px]cd ">We have been working with some Fortune 500+ clients</p>
       <div>
         <svg
           width="805"
@@ -190,8 +190,8 @@ export function Section() {
           </defs>
         </svg>
       </div>
-      <h2>Manage your entire community in a single system</h2>
-      <p>Who is Nextcent suitable for?</p>
+      <h2 className="w-[377.27px] leading-7 text-D-grey text-[25.06px] font-semibold align-text-center">Manage your entire community in a single system</h2>
+      <p className="text-neutral-grey text-[11.14px] leading-[16.71px] font-normal">Who is Nextcent suitable for?</p>
       {/* ============================ ICON & TEXT ============================= */}
       <div className="w-full flex justify-between">
         <div className="w-full flex flex-col items-center">

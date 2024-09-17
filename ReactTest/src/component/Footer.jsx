@@ -1,6 +1,6 @@
 export function FooterDiv() {
   return (
-    <div className="w-full flex flex-col py-10">
+    <div className="w-full mx-auto flex flex-col py-10">
       {/* GREY PART */}
       <div className="flex flex-col justify-center items-center bg-[#F5F7FA]">
         <h2>Pellentesque suscipit fringilla libero eu.</h2>

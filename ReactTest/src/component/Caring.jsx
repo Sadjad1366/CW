@@ -1,7 +1,7 @@
 export function Caring() {
   return (
     //============================ CARING ==============================
-    <div className="w-full flex flex-col justify-center">
+    <div className="w-full mx-auto flex flex-col justify-center">
       <h1>Caring is the new marketing</h1>
       <p>
         The Nextcent blog is the best place to read about the latest membership

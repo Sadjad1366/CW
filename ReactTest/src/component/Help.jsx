@@ -1,6 +1,6 @@
 export function Help() {
   return (
-    <div className="w-full flex justify-center items-center bg-[#F5F7FA]">
+    <div className="w-full mx-auto flex justify-center items-center bg-[#F5F7FA]">
       <div>
         <h2>
           Helping a local <span>business reinvent itself</span>

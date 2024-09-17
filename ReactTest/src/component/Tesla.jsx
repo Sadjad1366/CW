@@ -1,7 +1,7 @@
 export function Tesla() {
   return (
     //============================ TESLA ==============================
-    <div className="w-full flex bg-[#F5F7FA]">
+    <div className="w-full mx-auto flex bg-[#F5F7FA]">
       <img src="./assets/images/tesla.png" alt="tesla" />
       <div className="flex flex-col">
         <p>
