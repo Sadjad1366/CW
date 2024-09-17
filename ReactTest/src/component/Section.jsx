@@ -3,8 +3,10 @@ export function Section() {
     //============================ SECTION ==============================
     <div className="w-full flex flex-col items-center mx-auto py-6">
       <h2 className="text-[25.06px] font-semibold text-D-grey">Our Clients</h2>
-      <p className="text-neutral-grey text-[11.14px]cd ">We have been working with some Fortune 500+ clients</p>
-      <div>
+      <p className="text-neutral-grey text-[11.14px]cd ">
+        We have been working with some Fortune 500+ clients
+      </p>
+      <div className="my-4">
         <svg
           width="805"
           height="70"
@@ -190,41 +192,50 @@ export function Section() {
           </defs>
         </svg>
       </div>
-      <h2 className="w-[377.27px] leading-7 text-D-grey text-[25.06px] font-semibold align-text-center">Manage your entire community in a single system</h2>
-      <p className="text-neutral-grey text-[11.14px] leading-[16.71px] font-normal">Who is Nextcent suitable for?</p>
+      <h2 className="leading-7 text-D-grey text-[25.06px] font-semibold align-text-center">
+        Manage your entire community <hr /> in a single system
+      </h2>
+      <p className="text-neutral-grey text-[11.14px] leading-[16.71px] font-normal py-3">
+        Who is Nextcent suitable for?
+      </p>
       {/* ============================ ICON & TEXT ============================= */}
-      <div className="w-full flex justify-between">
+      <div className="w-full flex justify-between my-5">
         <div className="w-full flex flex-col items-center">
           <img src="./assets/images/people-shadow.png" alt="people" />
-          <p>Membership Organisations</p>
-          <p>
+          <h2 className="text-D-grey font-bold text-[19.49px] py-2">
+            Membership <hr /> Organisations
+          </h2>
+          <p className="text-[9.74px] text-neutral-grey px-28 font-normal">
             Our membership management software provides full automation of
             membership renewals and payments
           </p>
         </div>
-        <div className="w-full flex flex-col items-center">
+        <div className="w-full flex flex-col items-center px-3">
           <img src="./assets/images/house-shadow.png" alt="house" />
-          <p>Membership Organisations</p>
-          <p>
+          <h2 className="text-D-grey font-bold text-[19.49px] py-2">
+            National
+            <hr /> Associations
+          </h2>
+          <p className="text-[9.74px] text-neutral-grey px-28 font-normal">
             Our membership management software provides full automation of
             membership renewals and payments
           </p>
         </div>
         <div className="w-full flex flex-col items-center">
           <img src="./assets/images/shadow.png" alt="shadow" />
-          <p>Membership Organisations</p>
-          <p>
+          <h2 className="text-D-grey font-bold text-[19.49px] py-2">Clubs And <hr /> Groups</h2>
+          <p className="text-[9.74px] text-neutral-grey px-28 font-normal">
             Our membership management software provides full automation of
             membership renewals and payments
           </p>
         </div>
       </div>
       {/* ======================= image & text ===================== */}
-      <div className="w-full flex justify-center ">
+      <div className="w-full flex justify-center px-20 py-10 ">
         <img src="./assets/images/Frame-35.png" alt="man-woman-mobile" />
         <div className="flex flex-col justify-center items-center">
-          <h2>The unseen of spending three years at Pixelgrade</h2>
-          <p>
+          <h2 className="text-D-grey text-[25.06px] font-semibold px-44 text-left">The unseen of spending three years at Pixelgrade</h2>
+          <p className="text-neutral-grey font-normal px-14 text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
             amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
             Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
