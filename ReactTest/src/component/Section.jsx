@@ -193,7 +193,7 @@ export function Section() {
         </svg>
       </div>
       <h2 className="leading-7 text-D-grey text-[25.06px] font-semibold align-text-center">
-        Manage your entire community <hr /> in a single system
+        Manage your entire community <br /> in a single system
       </h2>
       <p className="text-neutral-grey text-[11.14px] leading-[16.71px] font-normal py-3">
         Who is Nextcent suitable for?
@@ -203,7 +203,7 @@ export function Section() {
         <div className="w-full flex flex-col items-center">
           <img src="./assets/images/people-shadow.png" alt="people" />
           <h2 className="text-D-grey font-bold text-[19.49px] py-2">
-            Membership <hr /> Organisations
+            Membership <br /> Organisations
           </h2>
           <p className="text-[9.74px] text-neutral-grey px-28 font-normal">
             Our membership management software provides full automation of
@@ -223,7 +223,9 @@ export function Section() {
         </div>
         <div className="w-full flex flex-col items-center">
           <img src="./assets/images/shadow.png" alt="shadow" />
-          <h2 className="text-D-grey font-bold text-[19.49px] py-2">Clubs And <hr /> Groups</h2>
+          <h2 className="text-D-grey font-bold text-[19.49px] py-2">
+            Clubs And <br /> Groups
+          </h2>
           <p className="text-[9.74px] text-neutral-grey px-28 font-normal">
             Our membership management software provides full automation of
             membership renewals and payments
@@ -231,10 +233,12 @@ export function Section() {
         </div>
       </div>
       {/* ======================= image & text ===================== */}
-      <div className="w-full flex justify-center px-20 py-10 ">
+      <div className="w-full flex px-20 py-10 ">
         <img src="./assets/images/Frame-35.png" alt="man-woman-mobile" />
-        <div className="flex flex-col justify-center items-center">
-          <h2 className="text-D-grey text-[25.06px] font-semibold px-44 text-left">The unseen of spending three years at Pixelgrade</h2>
+        <div className="text-left">
+          <h2 className="text-D-grey text-[25.06px] font-semibold pl-14 text-left">
+            The unseen of spending three <br /> years at Pixelgrade
+          </h2>
           <p className="text-neutral-grey font-normal px-14 text-left">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
             amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
@@ -243,6 +247,9 @@ export function Section() {
             Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
             elementum pulvinar odio.
           </p>
+          <button className="my-6 ml-14 text-[11.14px] font-medium bg-primary-green text-white px-8 py-2 h-[36.49px] rounded-[2.78px]">
+            Learn More
+          </button>
         </div>
       </div>
     </div>

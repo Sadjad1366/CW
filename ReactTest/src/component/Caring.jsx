@@ -1,25 +1,25 @@
 export function Caring() {
   return (
     //============================ CARING ==============================
-    <div className="w-full mx-auto flex flex-col justify-center">
-      <h1>Caring is the new marketing</h1>
-      <p>
+    <div className="w-full mx-auto flex flex-col justify-center py-5 mb-8">
+      <h1 className="font-semibold text-D-grey text-[25.06px]">Caring is the new marketing</h1>
+      <p className="font-normal text-[11.14px] text-center text-neutral-grey px-72 mx-20 pb-2">
         The Nextcent blog is the best place to read about the latest membership
         insights, trends and more. See who's joining the community, read about
         how our community are increasing their membership income and lot's
         more.​
       </p>
-      <div className="w-full flex justify-around">
+      <div className="w-full flex justify-around px-48">
         <div className="relative">
           <img src="./assets/images/chinese.png" alt="" />
-          <div className="flex flex-col items-center bg-[#F5F7FA] w-[220px] absolute left-5 -bottom-7 rounded-lg shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]">
-            <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
-            <div className="flex">
-              <p>Readmore</p>
-              <svg
+          <div className="flex flex-col items-center bg-bgc-base absolute left-5 -bottom-14 right-5 rounded-lg shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]">
+            <h3 className="font-semibold text-[13.92px] text-neutral-grey py-3">Creating Streamlined Safeguarding Processes with OneRen</h3>
+            <div className="flex justify-center items-center pb-3">
+            <p className="text-[13.92px] text-primary-green px-2">Readmore</p>
+            <svg
                 width="18"
                 height="18"
-                viewBox="0 0 18 18"
+                viewBox="0 -2 18 18"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -34,15 +34,15 @@ export function Caring() {
           </div>
         </div>
         <div className="relative">
-          <img src="./assets/images/chinese.png" alt="" />
-          <div className="flex flex-col items-center bg-[#F5F7FA] w-[220px] absolute left-5 -bottom-7 rounded-lg shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]">
-            <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
-            <div className="flex">
-              <p>Readmore</p>
+          <img src="./assets/images/laptop1.png" alt="" />
+          <div className="flex flex-col items-center bg-bgc-base absolute left-5 -bottom-14 right-5 rounded-lg shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]">
+            <h3 className="font-semibold text-[13.92px] text-neutral-grey py-3">What are your safeguarding responsibilities and how can you manage them?</h3>
+            <div className="flex justify-center items-center pb-3">
+              <p className="text-[13.92px] text-primary-green px-2">Readmore</p>
               <svg
                 width="18"
                 height="18"
-                viewBox="0 0 18 18"
+                viewBox="0 -2 18 18"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -57,15 +57,15 @@ export function Caring() {
           </div>
         </div>
         <div className="relative">
-          <img src="./assets/images/chinese.png" alt="" />
-          <div className="flex flex-col items-center bg-[#F5F7FA] w-[220px] absolute left-5 -bottom-7 rounded-lg shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]">
-            <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
-            <div className="flex">
-              <p>Readmore</p>
-              <svg
+          <img src="./assets/images/laptop2.png" alt="" />
+          <div className="flex flex-col items-center bg-bgc-base absolute left-5 -bottom-14 right-5 rounded-lg shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px]">
+            <h3 className="font-semibold text-[13.92px] text-neutral-grey py-3 px-4">Revamping the Membership Model with Triathlon Australia</h3>
+            <div className="flex justify-center items-center pb-3">
+            <p className="text-[13.92px] text-primary-green px-2">Readmore</p>
+            <svg
                 width="18"
                 height="18"
-                viewBox="0 0 18 18"
+                viewBox="0 -2 18 18"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >

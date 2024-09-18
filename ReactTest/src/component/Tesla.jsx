@@ -1,10 +1,10 @@
 export function Tesla() {
   return (
     //============================ TESLA ==============================
-    <div className="w-full mx-auto flex bg-[#F5F7FA]">
+    <div className="w-full mx-auto flex bg-bgc-base py-6 px-40">
       <img src="./assets/images/tesla.png" alt="tesla" />
-      <div className="flex flex-col">
-        <p>
+      <div className="flex flex-col pl-14">
+        <p className="text-neutral-grey text-left font-medium text-[11.14px] pr-8">
           Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis
           sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus.
           Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut
@@ -16,9 +16,9 @@ export function Tesla() {
           neque, eget efficitur libero condimentum id. Curabitur id nibh id sem
           dignissim finibus ac sit amet magna.
         </p>
-        <p>Tim Smith</p>
-        <p>British Dragon Boat Racing Association</p>
-        <div className="flex">
+        <p className="text-primary-green text-left my-2 text-[13.92px]">Tim Smith</p>
+        <p className="text-L-grey text-[16px] text-left mb-4">British Dragon Boat Racing Association</p>
+        <div className="flex items-center">
         <svg width="347" height="35" viewBox="0 0 347 35" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.14209" y="0.919434" width="33.4113" height="33.4113" rx="5.56856" fill="#E8F5E9"/>
 <g clip-path="url(#clip0_211_2510)">
@@ -81,10 +81,10 @@ export function Tesla() {
 </clipPath>
 </defs>
       </svg>
-      <p>Meet all customers</p>
-      <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.7141 11.4094L14.0062 9.11729C14.2781 8.84546 14.2781 8.40473 14.0062 8.1329L11.7141 5.84082M13.8023 8.6251L4.05737 8.6251" stroke="#4CAF4F" stroke-width="1.0441" stroke-linecap="round"/>
-</svg>
+      <div className="flex justify-between items-center px-7"><p className="text-primary-green font-semibold text-[13.92px] pr-3">Meet all customers</p>
+       <svg className="" width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <path d="M11.7141 11.4094L14.0062 9.11729C14.2781 8.84546 14.2781 8.40473 14.0062 8.1329L11.7141 5.84082M13.8023 8.6251L4.05737 8.6251" stroke="#4CAF4F" stroke-width="1.0441" stroke-linecap="round"/>
+       </svg></div>
 
         </div>
       </div>
