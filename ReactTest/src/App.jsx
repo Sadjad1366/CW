@@ -10,7 +10,7 @@ import { Tesla } from './component/Tesla.jsx'
 import { Caring } from './component/Caring.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
 <div className='container'>

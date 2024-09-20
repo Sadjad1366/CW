@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     //============================ HEADER ==============================
-    <div className="w-full h-[58.76px] flex justify-between items-center mx-auto">
+    <div className="w-full flex justify-between items-center py-4 mx-auto">
       <div className="flex items-center px-20">
         <svg
           width="25"

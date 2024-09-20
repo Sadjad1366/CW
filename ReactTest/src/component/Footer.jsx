@@ -1,6 +1,6 @@
 export function FooterDiv() {
   return (
-    <div className="w-full mx-auto flex flex-col py-8">
+    <div className="w-full mx-auto flex flex-col pt-9">
       {/* GREY PART */}
       <div className="flex flex-col justify-center items-center bg-bgc-base">
         <h2 className="font-semibold text-[44.55px] px-60 mx-20 mt-6 leading-[52.9px] text-app-black">
@@ -27,7 +27,7 @@ export function FooterDiv() {
         </button>
       </div>
       {/* Black Part */}
-      <div className="w-full flex justify-between px-28 py-9 bg-app-black">
+      <div className="w-full flex justify-between px-28 py-5 bg-app-black">
         {/* Nexcent */}
         <div className="flex flex-col">
           <div className="flex items-center mb-3">

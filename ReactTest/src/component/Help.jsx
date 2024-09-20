@@ -1,9 +1,9 @@
 export function Help() {
   return (
-    <div className="w-full mx-auto flex justify-around items-center py-20 bg-bgc-base">
+    <div className="w-full mx-auto flex justify-around items-center py-10 bg-bgc-base">
       <div>
         <h2 className="w-full font-semibold text-[25.06px] text-left">
-          Helping a local <hr />{" "}
+          Helping a local <br />{" "}
           <span className="text-primary-green">business reinvent itself</span>
         </h2>
         <p className="font-normal text-[11.14px]">

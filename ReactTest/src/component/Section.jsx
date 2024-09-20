@@ -199,7 +199,7 @@ export function Section() {
         Who is Nextcent suitable for?
       </p>
       {/* ============================ ICON & TEXT ============================= */}
-      <div className="w-full flex justify-between my-5">
+      <div className="w-full flex justify-between mt-5">
         <div className="w-full flex flex-col items-center">
           <img src="./assets/images/people-shadow.png" alt="people" />
           <h2 className="text-D-grey font-bold text-[19.49px] py-2">
@@ -247,7 +247,7 @@ export function Section() {
             Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
             elementum pulvinar odio.
           </p>
-          <button className="my-6 ml-14 text-[11.14px] font-medium bg-primary-green text-white px-8 py-2 h-[36.49px] rounded-[2.78px]">
+          <button className="mt-6 ml-14 text-[11.14px] font-medium bg-primary-green text-white px-8 py-2 h-[36.49px] rounded-[2.78px]">
             Learn More
           </button>
         </div>
