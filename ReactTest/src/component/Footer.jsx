@@ -159,7 +159,9 @@ export function FooterDiv() {
         <div className="flex flex-col">
           <h3 className="font-semibold text-[13.92px] text-white mb-4 text-left">Stay up to date</h3>
           <div className="flex justify-between items-center bg-[#89939E] py-1 pl-2 rounded-sm pr-1">
-            <p className="font-normal text-[9.74px] text-[#D9DBE1] pr-10">Your email address</p>
+            {/* <p className="font-normal text-[9.74px] text-[#D9DBE1] pr-10">Your email address</p> */}
+            {/* < className="font-normal text-[9.74px] text-[#D9DBE1] pr-10">Your email address/> */}
+            <input className="font-normal bg-[#89939E] border-0 text-[9.74px] pr-10" type="text" placeholder="Your email address" />
             <svg
               width="14"
               height="13"
